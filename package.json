@@ -26,16 +26,16 @@
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/denz-aja/apani",
+    "homepage": "https://github.com/denz-aja/siesta-bot",
     "author": {
-        "name": "ImYanXiao"
+        "name": "denz-aja"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/denz-aja/apani.git"
+        "url": "git+https://github.com/denz-aja/siesta-bot.git"
     },
     "bugs": {
-        "url": "https://github.com/denz-aja/apani/issues"
+        "url": "https://github.com/denz-aja/siesta-bot/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
