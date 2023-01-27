@@ -1,245 +1,211 @@
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
-
-
-
-  <p align="center"><a href="https://github.com/denz-aja/siesta-bot/network/members">
-    <img title="Whatsapp-Bot-Multi-Device-Forks" src="https://img.shields.io/github/forks/denz-aja/siesta-bot?label=Forks&color=%23ffdac1&style=flat-square">
-  </a>
-<a href="https://www.codefactor.io/repository/github/denz-aja/siesta-bot"><img src="https://www.codefactor.io/repository/github/denz-aja/siesta-bot/badge" alt="CodeFactor" /></a>
-  <a href="https://github.com/denz-aja/siesta-bot/watchers">
-    <img title="Whatsapp-Bot-Multi-Auth" src="https://img.shields.io/github/watchers/denz-aja/siesta-bot?label=Watchers&color=%23e2f0cb&style=flat-square">
-  </a>
-  <a href="https://github.com/denz-aja/siesta-bot/blob/master/LICENSE">
-    <img title="Whatsapp-Bot-Multi-Auth" src="https://img.shields.io/badge/License-Apache_2.0-blue.svg?color=%23b5ead7&style=flat-square"/>
-  </a>
-  <a href="https://hits.seeyoufarm.com">
-    <img title="Whatsapp-Bot-Multi-Device-Hits" src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/denz-aja/siesta-bot/&count_bg=%23c7ceea&title_bg=%23555555&icon=probot.svg&icon_color=%23c7ceea&title=Hits&edge_flat=true"/>
-  </a>
-</div>
- <p align="center">
-<img width="" src="https://img.shields.io/github/repo-size/BOTCAHX/RTXZY-MD?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor">
+<p align="center">
+    <img src="https://telegra.ph/file/c4d8cd077d71da92aec77.jpg" width="100%" style="margin-left: auto;margin-right: auto;display: block;">
 </p>
 
+## PENTING
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FBOTCAHX%2FRTXZY-MD.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FBOTCAHX%2FRTXZY-MD?ref=badge_large)
+> **Warning**: Jangan Memperjual Belikan Script Ini. 
+<h1 align="center">SIESTA BOT</h1>
 
-## Penjelasan Instalasi 
-- Sript ini hanya bisa mengambil sesi di module di bawah ini
-- [`GET SESI LINK`](https://replit.com/@dapitt/sessions?lite=1&outputonly=1)
-- Setelah memindai upload sessions yang dikirim bot ke github / panel 
-- Upload tepat di folder sessions jangan di luar folder tersebut.
-- nama global session  ya biasanya creds.json
-- Perlu di ingat sesi multi auth bukan session.data.json/sesion.json dan bercampur dengan pre-key dan auth-key
-
-
-## Notes 
-- Telah menggunakan Baileys MD multi auth !
-
-- Panduan [`Link`](https://github.com/BOTCAHX/RTXZY-MD/blob/v3.0/BACADULU.md#session-multi-auth)
-
-## Base 
-Original base [`Link`](https://github.com/HelgaIlham/ZukaBet)
-
-## List Menu Troube Discussion 
-Bergabung [`Read Discussion`](https://github.com/BOTCAHX/RTXZY-MD/discussions/46)
-
-## Instalasi Package Error
-Gunakan Backup [`Link Backup`](https://github.com/BOTCAHX/RTXZY-MD/blob/v3.0/package.json.bak) 
-## Logs level
-- Jika ingin mengubah level pino nya maka ubah di line ini [`Logs level`](https://github.com/BOTCAHX/RTXZY-MD/blob/c67a8427d123c4e49d761d34912fb23f169d89a2/main.js#L74)
-- Opsi tersedia : silent , debug , trace
-## WhatsApp Bot Hosting
-> Deploy bot mudah dan cepat di panel 
- 
-- Runtime 24/7
-- No delay !
-- Server selalu up-to-date 
-**Link** 
-
-[`Panel Server`](https://chat.whatsapp.com/CmzVZLZl7xL2TNtd9dUvPc)
-
-## Join Group Diskusi
-[![BOT DISCUSSION GROUP](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=red)](https://chat.whatsapp.com/D6BZVRSymWaFU28t2lxaO0) [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FBOTCAHX%2FRTXZY-MD.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FBOTCAHX%2FRTXZY-MD?ref=badge_shield)
-
-
-[![ALL BOT WHATSAPP](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=red)](https://chat.whatsapp.com/KTmU4Hoj437BX4fWpXTnpF)
-
-## Install for termux
-
-```bash
-> termux-setup-storage
-> pkg update && pkg upgrade
-> pkg install git
-> pkg install nodejs
-> pkg install bash
-> pkg install ffmpeg
-> pkg install libwebp
-> git clone  https://github.com/BOTCAHX/RTXZY-MD
-> cd RTXZY-MD
-> npm i
-> node index.js
-
-## untuk Sdcard (File yang Sudah Di Download)
-> cd /sdcard
-> cp -r RTXZY-MD $HOME
-> cd RTXZY-MD
-> npm i
-> node index.js
-```
-
-## Run On Heroku
-
-Simple WhatsApp Bot
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/BOTCAHX/RTXZY-MD)
-
-```bash
-Login with your github
-Click Launch Dev Environment
-Choose your repo
-```
-## UNTUK PENGGUNA WINDOWS/VPS/RDP
-
-* Unduh & Instal Git [`Klik Disini`](https://git-scm.com/downloads)
-* Unduh & Instal NodeJS [`Klik Disini`](https://nodejs.org/en/download)
-* Unduh & Instal FFmpeg [`Klik Disini`](https://ffmpeg.org/download.html) (**Jangan Lupa Tambahkan FFmpeg ke variabel lingkungan PATH**)
-* Unduh & Instal ImageMagick [`Klik Disini`](https://imagemagick.org/script/download.php)
-
-```bash
-git clone https://github.com/BOTCAHX/RTXZY-MD
-cd RTXZY-MD
-npm i
-npm start
-```
-# Heroku Buildpack
-### Instal Buildpack
-* heroku/nodejs
-* https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git
-* https://github.com/clhuang/heroku-buildpack-webp-binaries.git
-
-
-# Hargai Kami Dengan Menambahkan Credit
+<p align="center">
+ <a href="#"><img title="siesta-bot" src="https://img.shields.io/badge/Whatshapp BOT-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+</p>
+<p align="center">
+<a href="https://github.com/denz-aja"><img title="Author" src="https://img.shields.io/badge/AUTHOR-denz-aja-green.svg?style=for-the-badge&logo=github"></a>
 
 ---------
 
-### `--prefix <prefix>`
+### a little about this bot
+- ✔️ | **Simple** 
+- ✔️ | **Button Template** 
+- ✔️ | **Multi Device** 
+- ✔️ | **Button Document(Experiment)** 
+---------
+### Some of the features include
+- ✔️ | Menfess
+- ✔️ | AntiCall
+- ✔️ | Game & Rpg Game
+- ✔️ | Nsfw 
+- ✔️ | Sticker 
+- ✔️ | Kerang Ajaib 
+- ✔️ | Quotes
+- ✔️ | Anime 
+- ✔️ | Premium 
+- ✔️ | Tools 
+---------
 
-* `prefixes` dipisahkan oleh masing-masing karakter
-Setel awalan
+## ```USER RAILWAY```
 
-### `--server`
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app)
 
-Digunakan untuk [heroku](https://heroku.com/) atau pindai melalui situs web
-
-### `--db <json-server-url>`
-
-menggunakan db eksternal alih-alih db lokal, **disarankan** menggunakan mongodb
-
-contoh server dengan mongodb db: node . --db "mongodb+srv://botwa:Jxrt6KiUNOOccDuo@cluster0.dytrn2e.mongodb.net/?retryWrites=true&w=majority" --autocleartmp --restrict
-
-contoh server dengan repl `https://json-server.tioclkp02.repl.co/`
-
-kode: `https://repl.it/@tioclkp02/json-server`
-
-`node . --db 'https://json-server.tioclkp02.repl.co/'`
-
-server harus memiliki spesifikasi seperti ini
-
-#### GET
-
-```http
-GET /
-Accept: application/json
+## ```USER REPLIT```
+[![Run on Repl.it](https://repl.it/badge/github/den-aja/siesta-bot)](https://repl.it/github/denz-aja/siesta-bot)
+## TERMUX USER
+```bash
+$ pkg upgrade && pkg update
+$ pkg install git -y
+$ pkg install nodejs -y
+$ pkg install ffmpeg -y
+$ pkg install imagemagick -y
+$ git clone https://github.com/denz-aja/siesta-bot
+$ cd siesta-bot
+$ npm i 
+```
+If error try using yarn instead of npm, see [here](https://github.com/BochilGaming/games-wabot/tree/multi-device#if-npm-install-failed--try--using-yarn-instead-of-npm)
+```bash
+$ node .
 ```
 
-#### POST
+#### For android 10 and above don't use npm, use yarn install
+```bash
+$ pkg install yarn -y
+$ yarn install
+```
+---------
 
-```http
-POST /
-Content-Type: application/json
+## TERMUX WITH UBUNTU
 
-{
- data: {}
-}
+```bash
+apt update && apt full-upgrade
+apt install wget curl git proot-distro
+proot-distro install ubuntu
+echo "proot-distro login ubuntu" > $PREFIX/bin/ubuntu
+ubuntu
+```
+---------
+
+[ INSTALLING REQUIRED PACKAGES ]
+
+```bash
+ubuntu
+apt update && apt full-upgrade
+apt install wget curl git ffmpeg imagemagick build-essential libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev dbus-x11 ffmpeg2theora ffmpegfs ffmpegthumbnailer ffmpegthumbnailer-dbg ffmpegthumbs libavcodec-dev libavcodec-extra libavcodec-extra58 libavdevice-dev libavdevice58 libavfilter-dev libavfilter-extra libavfilter-extra7 libavformat-dev libavformat58 libavifile-0.7-bin libavifile-0.7-common libavifile-0.7c2 libavresample-dev libavresample4 libavutil-dev libavutil56 libpostproc-dev libpostproc55 graphicsmagick graphicsmagick-dbg graphicsmagick-imagemagick-compat graphicsmagick-libmagick-dev-compat groff imagemagick-6.q16hdri imagemagick-common libchart-gnuplot-perl libgraphics-magick-perl libgraphicsmagick++-q16-12 libgraphicsmagick++1-dev
 ```
 
-### `--big-qr`
+---------
 
-Jika qr unicode kecil tidak mendukung
+[ INSTALLING NODEJS & ELAINABOT-MD]
 
-### `--img`
+```bash
+ubuntu
+curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
+apt install -y nodejs gcc g++ make
+git clone https://github.com/denz-aja/siesta-bot
+cd siesta-bot
+npm install
+npm update
+```
 
-Aktifkan pemeriksa gambar melalui terminal
+---------
 
-### `--test`
+## FOR WINDOWS/VPS/RDP USER 💻
 
-**Development** Testing Mode
+* Download And Install Git [`Click Here`](https://git-scm.com/downloads)
+* Download And Install NodeJS [`Click Here`](https://nodejs.org/en/download)
+* Download And Install FFmpeg [`Click Here`](https://ffmpeg.org/download.html) (**Don't Forget Add FFmpeg to PATH enviroment variables**)
+* Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php)
 
-### `--trace`
+```bash
+git clone https://github.com/ImYanXiao/Elaina-MultiDevice
+cd Elaina-MultiDevice
+npm install
+npm update
+```
 
+---------
+
+## Run ⏳
+
+```bash
+node .
+```
+
+---------
+
+## ```Arguments node . [--options] [<session name>]```
+
+## `--self`
+* activate self mode (ignores other)
+
+## `--pconly`
+* If that chat not from private bot, bot will ignore
+
+## `--gconly`
+* If that chat not from group, bot will ignore
+
+## `--swonly`
+* If that chat not from status, bot will ignore
+
+## `--prefix <prefixes>`
+* `prefixes` are seperated by each character
+Set prefix
+
+## `--server`
+* Used for [heroku](https://heroku.com/) or scan through website
+
+## `--restrict`
+* Enables restricted plugins (which can lead your number to be **banned** if used too often)
+* Group Administration `add, kick`
+
+## `--img`
+* Enable image inspector through terminal
+
+## `--autoread`
+* If enabled, all incoming messages will be marked as read
+
+## `--nyimak`
+* No bot, just print received messages and add users to database
+
+## `--test`
+* **Development** Testing Mode
+
+---------
+
+## ```How To Customise Message Display```
 ```js
-conn.logger.level = 'trace'
+// Syntax
+conn.sendButton(
+      jid, // jid of the user to send the message to
+      text, // text to send
+      foooter, // footer to send
+      buffer, // buffer to send (optional), if you want to send button image, location, etc
+      buttons, // buttons to send, example [['text1', 'id1'], ['text2', 'id2']]
+      quoted, // quoted message to send (optional)
+      options // options to send, example { asLocation: true }
+)
+
+// example 
+conn.sendButton(m.chat, 'Hello world!', '@BochilGaming', null, [
+      ['Hello', 'hello'], ['Bye', 'bye']
+])
+// example button location
+conn.sendButton(m.chat, 'Hello world!', '@BochilGaming', 'https://github.com/BochilGaming', 
+      [['Hello', 'hello'], ['Bye', 'bye']], 
+      null, { asLocation: true }
+)
 ```
+---------
 
-### `--debug`
+### 📮 S&K
+1. Not For Sale
+2. Don't forget give star this repo
+3. Don't use this repository wrong!
+4. If you have problem chat me in owner number
 
-```js
-conn.logger.level = 'debug'
-```
-#### Thanks To 
-**Allah SWT**,
+---------
 
-**Orang Tua**,
+## ```Thanks to ✨```
+* [`Allah SWT`](https://github.com/denz-aja)
+* [`My parents`](https://github.com/denz-aja)
+* [`All Friends`](https://github.com/denz-aja)
+* [`All Contributors`](https://github.com/denz-aja)
+* [`All Creator Bot`](https://github.com/denz-aja)
+[![`Adiwajshing`](https://github.com/adiwajshing.png?size=70)](https://github.com/adiwajshing)
+[![`Nurutomo`](https://github.com/nurutomo.png?size=70)](https://github.com/nurutomo)
+[![`BochilGaming`](https://github.com/bochilgaming.png?size=70)](https://github.com/bochilgaming)
+[![`Fokus ID`](https://github.com/Fokusdotid.png?size=70)](https://github.com/Fokusdotid)
+[![`ImYanXiao`](https://github.com/ImYanXiao.png?size=70)](https://github.com/ImYanXiao)
 
-**All Team Bot Discussion**,
-
-**Yang Support Buat Recode Base Ini**,
-
-**Semua Yang Bersangkutan Dalam Berdirinya Script Ini**,
-
-**Untuk Hyzer, Base Original Script Ini**,
-
-**Untuk Semua Yang Selalu Mendukung Kami.**
-
-**All Contributors**,
-
-[`Visit`](https://github.com/BOTCAHX/RTXZY-MD/graphs/contributors)
-
-### Contact Person
-
- [`AlyaXzy`](https://wa.me/6289505165400)
-
- [`BOTCAHX`](https://wa.me/6282221792667)
- 
- [`Verdi`](https://wa.me/6285706735450)
- 
- [`Radhin`](https://wa.me/6282373158947)
-
-##### All Contributors
-<a href="https://github.com/BOTCAHX"><img src="https://github.com/BOTCAHX.png?size=100" width="100" height="100"></a> | [![Alya Putri](https://github.com/AlyaaXd.png?size=100)](https://github.com/AlyaaXd) 
----|---
-[Tio](https://github.com/BOTCAHX)  | [Alya putri](https://github.com/AlyaaXd)
-Creator | Creator |
-<a href="https://github.com/verdihatorou"><img src="https://github.com/verdihatorou.png?size=100" width="100" height="100"></a> | [![Radhin](https://github.com/radhin123.png?size=100)](https://github.com/radhin123) 
-[Verdi](https://github.com/verdihatorou)  | [ Radhin](https://github.com/radhin123)
-Creator | Contributors |
-<a href="https://github.com/natxdixie"><img src="https://github.com/natxdixie.png?size=100" width="100" height="100"></a>
-[Natx-C](https://github.com/natxdixie) 
-Contributor 
-##### Special Thanks To
-<!--[![Nurutomo](https://github.com/Nurutomo.png?size=100)](https://github.com/Nurutomo)
-[![BochilGaming](https://github.com/BochilGaming.png?size=100)](https://github.com/BochilGaming)
-[![adiwajshing/Baileys](https://github.com/adiwajshing.png?size=100)](https://github.com/adiwajshing)-->
-<a href="https://github.com/BochilGaming"><img src="https://github.com/BochilGaming.png?size=100" width="100" height="100"></a> | [![NURUTOMO](https://github.com/Nurutomo.png?size=100)](https://github.com/Nurutomo) 
----|---
-[bocil](https://github.com/BochilGaming)  | [Nurutomo](https://github.com/Nurutomo)
-sepuh | sepuh |
-<a href="https://github.com/MhankBarBar"><img src="https://github.com/MhankBarBar.png?size=100" width="100" height="100"></a> | [![FATIH](https://github.com/fatiharridho.png?size=100)](https://github.com/fatiharridho) 
-[Mhankbarbar](https://github.com/MhankBarBar)  | [Fatih A.](https://github.com/fatiharridho)
-sepuh | sepuh |
-<a href="https://github.com/FERDIZ-afk"><img src="https://github.com/FERDIZ-afk.png?size=100" width="100" height="100"></a> 
-[Ferdiz](https://github.com/FERDIZ-afk) 
-For Help
-<a href="https://github.com/adiwajshing"><img src="https://github.com/adiwajshing.png?size=100" width="100" height="100"></a> | [![caf](http://github.com/CAF-ID.png?size=100)](http://github.comCAF-ID) 
-[Adiwajshing](https://github.com/adiwajshing) | [caf](https://github.com/CAF-ID)
-Owner of Baileys | Sepuh |
+## ```Recode By ✏️```
+[![denz-aja](https://github.com/denz-aja.png?size=70)](https://github.com/denz-aja)
